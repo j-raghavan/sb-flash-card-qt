@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/CustomLabel.qml</file>
+        <file>qml/PageBackground.qml</file>
+        <file>qml/SideBar.qml</file>
+        <file>qml/SideBarForm.ui.qml</file>
+        <file>qml/Welcome.qml</file>
+        <file>qml/WelcomeForm.ui.qml</file>
+        <file>qml/FlashCard.qml</file>
+        <file>qml/FlashCardForm.ui.qml</file>
+        <file>qml/Configuration.qml</file>
+        <file>qml/ConfigurationForm.ui.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>images/san.png</file>
+        <file>images/namaste.jpeg</file>
+    </qresource>
+</RCC>
