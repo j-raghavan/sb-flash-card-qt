@@ -11,6 +11,7 @@
         <file>qml/FlashCardForm.ui.qml</file>
         <file>qml/Configuration.qml</file>
         <file>qml/ConfigurationForm.ui.qml</file>
+        <file>qml/Lipi/AAkshara.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>images/san.png</file>
         <file>images/namaste.jpeg</file>

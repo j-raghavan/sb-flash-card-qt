@@ -4,6 +4,7 @@ import QtQuick.Layouts 1.0
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.0
 import QtWebEngine 1.4
+import "Lipi"
 
 
 PageBackground {
@@ -20,13 +21,29 @@ PageBackground {
         source: "qrc:/images/san.png"
     }
 
-    /*
-    WebEngineView {
-        anchors.fill: parent
-        url: "https://www.samskritabharatiusa.org/"
+        
+    AAkshara {
+            id: akshara
+            anchors.top: sbLogo.bottom
+            anchors.topMargin: 60
+            anchors.leftMargin: 60
+            anchors.rightMargin: 60
     }
-    */
 
+    Rectangle {
+            id: details
+            anchors.top: sbLogo.bottom
+            anchors.left: akshara.right
+            anchors.right: parent.right
+            anchors.topMargin: 60
+            anchors.rightMargin: 60
+            width: parent.width / 2
+            height: parent.height * 0.8
+            color: "ivory"
+            clip: true
+    }
+
+    /*
     CustomLabel {
         id: welcomeLabel
         text: qsTr("Hi!")
@@ -47,7 +64,7 @@ PageBackground {
             swipeView.currentIndex = 2
         }
     }
-
+    */
     Component.onCompleted: {
 
     }

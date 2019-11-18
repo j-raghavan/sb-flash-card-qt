@@ -720,6 +720,7 @@ qrc_qml.cpp: qml.qrc \
 		qml/FlashCardForm.ui.qml \
 		qml/main.qml \
 		qml/CustomLabel.qml \
+		qml/Lipi/AAkshara.qml \
 		images/namaste.jpeg \
 		images/san.png
 	/opt/Qt/5.12.1/gcc_64/bin/rcc -name qml qml.qrc -o qrc_qml.cpp
