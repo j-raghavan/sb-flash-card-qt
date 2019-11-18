@@ -42,12 +42,41 @@ PageBackground {
     }
 
 
+    GridLayout {
+        rows: 1
+        columns: 2
+        x: 31
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.bottom: button1.top
+        anchors.leftMargin: 40
+        anchors.rightMargin: 20
+        anchors.bottomMargin: 100
+        Button {
+            id: leftNav
+            x: 31
+            y: 628
+            width: 42
+            anchors.rightMargin: 20
+            text: qsTr("Prev")
+        }
+
+        Button {
+            id: rightNav
+            x: 62
+            y: 628
+            width: 42
+            anchors.leftMargin: 20
+            text: qsTr("Next")
+        }
+    }
+
     Button {
         id: button1
         x: 31
         y: 728
         width: 212
-        text: qsTr("Configure")
+        text: qsTr("Load Cards")
         anchors.leftMargin: 15
         anchors.bottomMargin: 100
         anchors.rightMargin: 15
