@@ -4,10 +4,9 @@ Samskrita Bharati Flash Card Project
 
 *Samskrita Bharati Flash card Project*
 
-.. image:: https://img.sheilds.io/badge/license-MIT-blue.svg
-    :target: https://github.com/j-raghavan/sb-flash-card/blob/master/LICENSE
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-.. image:: https://https://www.samskritabharatiusa.org/images/san.png
+.. image:: https://www.samskritabharatiusa.org/images/san.png
     :target: https://www.samsrkitabharatiusa.org
 
 ------------------------------------------------------------------------------
